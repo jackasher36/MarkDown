@@ -1,0 +1,4 @@
+# springmvc无法找到文件
+
+前面我发现打开服务器找不到文件,是因为构建项目是这个artifact和实际的WEB-INF对不上,每个模块都会有个artifact用于构建web或者jar包,这个war包依赖于WEB-INF
+
